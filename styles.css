@@ -1,0 +1,46 @@
+/* CSS BY JULIAN SMITH */
+
+/* IMPORTED FONTS */
+@import
+url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+.h1 {
+    font-family: Kavoon;
+    font-size: 3em;
+}
+
+.h2 {
+    font-family: Kavoon;
+    font-size: 2em;
+}
+
+.nav h2 {
+    font-family: Kavoon;
+    font-size: 1.5em;
+}
+
+.h3 {
+    font-family: Inter;
+    font-size: 1.5em;
+}
+
+.h4 {
+    font-family: Inter;
+    font-size: 1.15em;
+}
+
+.a {
+    font-family: Inter;
+}
+/* CSS REST */
+
+/* ROOT VARIABLES */
+:root {
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --darkgray: #1E1E1E;
+    --white: #ffffff;
+}
+/* GLOBAL STYLES (mobile first/small) */
