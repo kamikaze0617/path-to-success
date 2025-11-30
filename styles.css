@@ -3,35 +3,233 @@
 /* IMPORTED FONTS */
 @import
 url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
-.h1 {
+h1 {
     font-family: Kavoon;
     font-size: 3em;
 }
-
-.h2 {
+h2 {
     font-family: Kavoon;
     font-size: 2em;
 }
-
-.nav h2 {
-    font-family: Kavoon;
-    font-size: 1.5em;
-}
-
-.h3 {
+nav h2 {
     font-family: Inter;
     font-size: 1.5em;
 }
-
-.h4 {
+h3 {
+    font-family: Inter;
+    font-size: 1.5em;
+}
+h4 {
     font-family: Inter;
     font-size: 1.15em;
 }
-
-.a {
+a {
     font-family: Inter;
 }
+
+
 /* CSS REST */
+header {
+    background-color: var(--purple);
+    text-align: center;
+    margin: auto;
+    color: var(--white);
+    padding: 1em;
+}
+header h4 {
+    font-style: italic;
+}
+
+
+nav {
+    background: var(--yellow);
+    margin: auto;
+    text-align: center;
+    /* max-width: 450px; */
+    padding: 1em;
+}
+nav ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+}
+nav ul.menu li {
+    margin: 0.4em 0;
+}
+nav ul.menu li a {
+    display: block;
+    background: var(--white);
+    padding: 0.6em;
+    border-radius: 4px;
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: 600;
+}
+nav ul.menu li a:hover {
+    background: var(--lavender);
+    color: var(--white);
+}
+nav h3 {
+    font-style: italic;
+}
+
+
+main {
+    background-color: var(--purple);
+    /* max-width: 450px; */
+    margin: 0 auto;
+    padding: 1em;
+}
+section h2 {
+    color: var(--white);
+}
+.service-category h3 {
+    color: var(--yellow);
+    margin-top: 0.8em;
+}
+.service-category h4 {
+    color: var(--purple);
+    margin-top: 0.8em;
+}
+.service-item {
+    background: var(--white);
+    margin: 1em auto;
+    padding: 1em;
+    width: 90%;
+    border-radius: 8px;
+    border: 3px solid var(--lavender);
+}
+.service-item img {
+    width: 100px;
+    margin-bottom: 0.6em;
+}
+
+
+#why-us {
+    background-color: var(--pink);
+    color: var(--darkgray);
+    display: grid;
+    gap: 10px; 
+    padding: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    padding: 20px; 
+}
+.card {
+    width: 100%; /* Fixed width */
+    height: 100px; /* Fixed height */
+    font-weight: 700;
+    border-radius: 15px; /* Consistent border-radius */
+    display: flex; /* For centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+}
+.card-one {
+background-color: var(--teal);
+}
+.card-two {
+background-color: var(--lavender);
+}
+.card-three {
+background-color: var(--yellow);
+}
+.card-four {
+background-color: var(--white);
+}
+.card p {
+font-size: 1.2em;
+margin: 0;
+color: var(--darkgray);
+}
+
+
+#pricing div{
+    align-items: center;
+}
+.pricing-category table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing-category h3 {
+    color: var(--yellow);
+    text-align: left;
+}
+.pricing-category h4 {
+    color: var(--purple);
+    margin-top: 0.8em;
+}
+table {
+    width: 70%;
+    margin-bottom: 1.5em;
+    /* border-collapse: separate; 
+    border-spacing: 0; */
+    border: 1px;
+    font-size: 0.9rem;
+    background: var(--yellow);
+
+}
+table th {
+    background: var(--yellow); 
+    border: 1px solid var(--yellow);
+    color: var(--darkgray);
+    padding: 0.8em;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+table td {
+    padding: 0.8em;
+    background: var(--white);
+
+    color: var(--darkgray);
+}
+
+
+#first-step {
+    background-color: var(--pink);
+    text-align: center;
+    background-clip: calc(100% - 10vw);
+    /* width: 450px;
+    margin-left: calc(100% - 48.6vw); */
+    padding: 1em;
+    color: var(--white);
+}
+button {
+    background: var(--white);
+    color: var(--darkgray);
+    font-size: 1.1em;
+    border: 1em 1em var(--darkgray);
+    padding: 0.8em 1.4em;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+button:hover {
+    background: var(--lavender);
+}
+
+
+footer {
+    background: var(--purple);
+    color: var(--white);
+    text-align: center;
+    margin: auto;
+    padding: 1.5em 1em;
+}
+footer a {
+    color: var(--white);
+    text-decoration:underline
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
 
 /* ROOT VARIABLES */
 :root {
@@ -43,4 +241,25 @@ url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100.
     --darkgray: #1E1E1E;
     --white: #ffffff;
 }
+
+
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    background: var(--lavender);
+    font-family: Inter, sans-serif;
+    color: var(--darkgray);
+}
+@media (min-width: 320px) {
+    header {
+        max-width: 450px;
+    }
+    nav { 
+        max-width: 450px;
+    }
+    main {
+        max-width: 450px;
+    }
+    footer {
+        max-width: 450px;
+    }
+}
