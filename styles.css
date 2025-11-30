@@ -45,7 +45,6 @@ nav {
     background: var(--yellow);
     margin: auto;
     text-align: center;
-    /* max-width: 450px; */
     padding: 1em;
 }
 nav ul.menu {
@@ -76,7 +75,6 @@ nav h3 {
 
 main {
     background-color: var(--purple);
-    /* max-width: 450px; */
     margin: 0 auto;
     padding: 1em;
 }
@@ -119,14 +117,14 @@ section h2 {
     padding: 20px; 
 }
 .card {
-    width: 100%; /* Fixed width */
-    height: 100px; /* Fixed height */
+    width: 100%; 
+    height: 100px; 
     font-weight: 700;
-    border-radius: 15px; /* Consistent border-radius */
-    display: flex; /* For centering content */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    text-align: center; /* Center text */
+    border-radius: 15px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 .card-one {
 background-color: var(--teal);
@@ -166,8 +164,6 @@ color: var(--darkgray);
 table {
     width: 70%;
     margin-bottom: 1.5em;
-    /* border-collapse: separate; 
-    border-spacing: 0; */
     border: 1px;
     font-size: 0.9rem;
     background: var(--yellow);
@@ -186,7 +182,6 @@ table th {
 table td {
     padding: 0.8em;
     background: var(--white);
-
     color: var(--darkgray);
 }
 
@@ -194,9 +189,6 @@ table td {
 #first-step {
     background-color: var(--pink);
     text-align: center;
-    background-clip: calc(100% - 10vw);
-    /* width: 450px;
-    margin-left: calc(100% - 48.6vw); */
     padding: 1em;
     color: var(--white);
 }
